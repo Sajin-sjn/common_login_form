@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+.row {
+    width: 450px;
+    padding: 20px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.input-field {
+    margin-top: 15px;
+}
+.btn {
+    width: 100%;
+}
+.login-heading {
+    color: #212529;
+}
+.major {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main {
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');
+    background-size: cover;
+    /* background-position: center; */
+    min-height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.password-field {
+    position: relative;
+}
+.password-field input {
+    width: 100%;
+    padding-right: 40px;
+}
+.password-field .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
